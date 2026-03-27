@@ -1,14 +1,28 @@
 # 🚀 Docling-Chandra Plus: Unified OCR Pipeline
 
-This package unifies the **Chandra OCR 2** results with the **Docling** document schema. It automates coordinate scaling, structural conversion, and visual verification into a single, "plug and play" workflow.
+This package unifies **Chandra OCR 2** results with the **Docling** document schema. It automates coordinate scaling, structural conversion, and visual verification into a single, "plug and play" workflow.
 
 ---
 
-## 🛠️ Installation
-Ensure you have the following dependencies installed in your environment:
+## 🏗️ Quick Start for New Users
+
+### 1. Clone the Repository
 ```bash
-pip install docling-core pymupdf beautifulsoup4
+git clone https://github.com/sengh2001/Docling_Chandra_Integration.git
+cd Docling_Chandra_Integration
 ```
+
+### 2. Install Dependencies
+```bash
+pip install docling-core pymupdf beautifulsoup4 sentence-transformers torch
+```
+
+---
+
+## 🛠️ Project Anatomy
+- **`docling_chandra_plus/`**: The main Python package containing the Adapter, Visualizer, and Aligner.
+- **`src/`**: Legacy scripts and core Docling processing logic.
+- **`parallel_corpora/`**: Dedicated storage for aligned English-Regional textbooks.
 
 ---
 
