@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.python-version
+uv.lock
+
+# Input/Output Data (Keep schema, ignore massive data)
+books/
+outputs*/
+scratch/
+parallel_corpora/Class_6-Science/*/eng_to_hin.json
+parallel_corpora/Class_6-Science/*/hin_to_eng.json
+
+# Local Test Artifacts
+*.pdf
+chandra_*_docling.json
+chandra_*_docling_readable.json
+
+# Tooling
+.antlr/
+.DS_Store
+*.zip
+*.log
